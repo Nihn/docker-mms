@@ -1,4 +1,5 @@
 FROM debian:wheezy
+MAINTAINER mateuszmoneta@gmail.com
 
 RUN apt-get update \
     && apt-get install -qqy --force-yes --no-install-recommends logrotate libsasl2-2 ca-certificates\
