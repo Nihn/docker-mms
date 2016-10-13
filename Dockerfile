@@ -1,7 +1,7 @@
 FROM debian:wheezy
 MAINTAINER mateuszmoneta@gmail.com
 
-ENV MMS_VERSION=5.3.0.341\
+ENV MMS_VERSION=5.4.0.345\
     MMS_USER=mms
 
 RUN apt-get update \
